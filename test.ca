@@ -1,0 +1,10 @@
+machine
+	ali
+dim
+	2,3, 5, 4
+states
+	dead, alive
+transition
+	{a:=12+45/6;y:=a;if a > 45 then return (snn (a+y)) else return alive endif;while a do {a :=a -1} endwhile}
+final 1
+endmachine
